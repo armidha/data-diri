@@ -3,29 +3,29 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+             android:layout_gravity="center_vertical"
              tools:context=".FirstFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp">
+            android:layout_marginTop="60dp">
 
         <RelativeLayout android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-            <ImageView android:layout_width="180dp"
-                       android:layout_height="180dp"
+            <ImageView android:layout_width="160dp"
+                       android:layout_height="160dp"
                        android:layout_margin="15dp"
                        android:layout_centerHorizontal="true"
                        android:scaleType="centerCrop"
-                       android:src="@drawable/ty"/>
+                       android:src="@drawable/r"/>
             <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:gravity="center"
                     android:textSize="35dp"
-                    android:layout_marginTop="-150dp"
+                    android:layout_marginTop="-80dp"
                     android:textColor="#708090"
                     android:id="@+id/fon"
                     android:text="Ricky Armidha"/>
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="230dp">
+                android:layout_marginTop="270dp">
 
             <LinearLayout android:layout_width="match_parent"
                           android:layout_height="match_parent"
@@ -51,14 +51,10 @@
 
                     <TextView android:layout_width="wrap_content"
                               android:layout_height="wrap_content"
-                              android:text="Female"
+                              android:text="Laki-laki"
                               android:textColor="#708090"
-                              android:fontFamily="@font/reg"
                               android:textSize="18dp"/>
 
-                    <ImageView android:layout_width="35dp"
-                               android:layout_height="35dp"
-                               android:src="@drawable/dome"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -70,14 +66,10 @@
 
                     <TextView android:layout_width="wrap_content"
                               android:layout_height="wrap_content"
-                              android:text="19"
+                              android:text="21"
                               android:textColor="#708090"
-                              android:fontFamily="@font/reg"
                               android:textSize="18dp"/>
 
-                    <ImageView android:layout_width="35dp"
-                               android:layout_height="35dp"
-                               android:src="@drawable/e"/>
                 </LinearLayout>
                 <LinearLayout
                         android:layout_width="0dp"
@@ -90,12 +82,8 @@
                               android:layout_height="wrap_content"
                               android:text="Indonesia"
                               android:textColor="#708090"
-                              android:fontFamily="@font/reg"
                               android:textSize="18dp"/>
 
-                    <ImageView android:layout_width="35dp"
-                               android:layout_height="35dp"
-                               android:src="@drawable/find"/>
                 </LinearLayout>
 
             </LinearLayout>

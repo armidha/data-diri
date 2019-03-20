@@ -25,10 +25,10 @@ class MyPagerAdapter(fm: FragmentManager): FragmentPagerAdapter(fm){
     //    JUDUL TIAP TAB
     override fun getPageTitle(position: Int): CharSequence? {
         return when (position) {
-            0 -> "First Tab"
-            1 -> "Second Tab"
-            2 -> "Third Tab"
-            else -> "Fourth Tab"
+            0 -> "Bio"
+            1 -> "Movies"
+            2 -> "Games"
+            else -> "Quotes"
         }
     }
 }
